@@ -12,11 +12,11 @@ console.log("Any Boolean:", value);
 
 
 let data: unknown = "TypeScript";
+data = 100;
+console.log(data);
 
+console.log("Unknown String:", data);
 
-if (typeof data === "string") {
-    console.log("Unknown String:", data.toUpperCase());
-}
 
 function greet(): void {
     console.log("Welcome to TypeScript!");
